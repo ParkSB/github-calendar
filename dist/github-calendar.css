@@ -10,7 +10,7 @@
 
 .calendar-graph text.wday,
 .calendar-graph text.month {
-    font-size: 10px;
+    font-size: 8px;
     fill: #aaa;
 }
 
@@ -93,6 +93,7 @@
 }
 
 .contrib-footer {
+    display: none;
     font-size: 11px;
     padding: 0 10px 12px;
     text-align: left;

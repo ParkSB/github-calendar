@@ -1,10 +1,12 @@
-declare interface CalendarOptions {
-  summary_text: string;
-  global_stats: boolean;
-  responsive: boolean;
-  proxy: (url: string) => string;
+interface Options {
+  summary_text?: string;
+  poxy?: (url: string) => string;
+  global_stats?: boolean;
+  responsive?: boolean;
 }
 
-declare class GitHubCalendar {
-  constructor(container: string | HTMLElement, username: string, options: CalendarOptions)
+declare class githubCalendar {
+  constructor(container: string | HTMLElement | null, username: string, opti1ons?: Options)
 }
+
+export default githubCalendar;
